@@ -2,6 +2,7 @@ package com.fingersmith.ui
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
@@ -16,7 +17,7 @@ import com.fingersmith.ui.screens.SongbookScreen
 fun AppScreen(vm: MainViewModel) {
     val state by vm.uiState.collectAsState()
 
-    Column(modifier = Modifier.fillMaxSize()) {
+    Column(modifier = Modifier.fillMaxSize().statusBarsPadding()) {
         TabRow(selectedTabIndex = state.tab.ordinal) {
             Tab(selected = state.tab == MainTab.SONGBOOK, onClick = { vm.setTab(MainTab.SONGBOOK) }, text = { Text("Songbook") })
             Tab(selected = state.tab == MainTab.CHORD_LIBRARY, onClick = { vm.setTab(MainTab.CHORD_LIBRARY) }, text = { Text("Chord Library") })

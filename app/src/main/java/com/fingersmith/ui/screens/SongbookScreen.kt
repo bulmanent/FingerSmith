@@ -6,6 +6,8 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.DropdownMenu
@@ -36,100 +38,165 @@ import com.fingersmith.ui.components.TimelineLane
 @Composable
 fun SongbookScreen(state: UiState, vm: MainViewModel) {
     var showSongMenu by remember { mutableStateOf(false) }
+    var showSectionMenu by remember { mutableStateOf(false) }
+    val scrollState = rememberScrollState()
 
-    Column(modifier = Modifier.fillMaxSize().padding(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Card(modifier = Modifier.fillMaxWidth()) {
-            Column(modifier = Modifier.fillMaxWidth().padding(10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text("Song Selection")
-                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                    OutlinedButton(
-                        enabled = state.songs.isNotEmpty(),
-                        onClick = {
-                            val next = if (state.selectedSongIndex <= 0) state.songs.lastIndex else state.selectedSongIndex - 1
-                            vm.selectSong(next)
-                        }
-                    ) { Text("Prev") }
-                    Text(state.selectedSong?.title ?: "No songs loaded", modifier = Modifier.padding(top = 12.dp))
-                    OutlinedButton(
-                        enabled = state.songs.isNotEmpty(),
-                        onClick = {
-                            val next = if (state.selectedSongIndex >= state.songs.lastIndex) 0 else state.selectedSongIndex + 1
-                            vm.selectSong(next)
-                        }
-                    ) { Text("Next") }
-                }
-                OutlinedButton(enabled = state.songs.isNotEmpty(), onClick = { showSongMenu = true }) {
-                    Text("Select Song")
-                }
-                DropdownMenu(expanded = showSongMenu, onDismissRequest = { showSongMenu = false }) {
-                    state.songs.forEachIndexed { idx, song ->
-                        DropdownMenuItem(
-                            text = { Text(song.title) },
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(12.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp)
+    ) {
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .verticalScroll(scrollState),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            Card(modifier = Modifier.fillMaxWidth()) {
+                Column(modifier = Modifier.fillMaxWidth().padding(10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("Song Selection")
+                    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                        OutlinedButton(
+                            enabled = state.songs.isNotEmpty(),
                             onClick = {
-                                vm.selectSong(idx)
-                                showSongMenu = false
+                                val next = if (state.selectedSongIndex <= 0) state.songs.lastIndex else state.selectedSongIndex - 1
+                                vm.selectSong(next)
                             }
+                        ) { Text("Prev") }
+                        Text(state.selectedSong?.title ?: "No songs loaded", modifier = Modifier.padding(top = 12.dp))
+                        OutlinedButton(
+                            enabled = state.songs.isNotEmpty(),
+                            onClick = {
+                                val next = if (state.selectedSongIndex >= state.songs.lastIndex) 0 else state.selectedSongIndex + 1
+                                vm.selectSong(next)
+                            }
+                        ) { Text("Next") }
+                    }
+                    OutlinedButton(enabled = state.songs.isNotEmpty(), onClick = { showSongMenu = true }) {
+                        Text("Select Song")
+                    }
+                    DropdownMenu(expanded = showSongMenu, onDismissRequest = { showSongMenu = false }) {
+                        state.songs.forEachIndexed { idx, song ->
+                            DropdownMenuItem(
+                                text = { Text(song.title) },
+                                onClick = {
+                                    vm.selectSong(idx)
+                                    showSongMenu = false
+                                }
+                            )
+                        }
+                    }
+                    OutlinedButton(enabled = state.songs.isNotEmpty(), onClick = { showSectionMenu = true }) {
+                        Text("Loop: ${state.selectedSectionLabel()}")
+                    }
+                    DropdownMenu(expanded = showSectionMenu, onDismissRequest = { showSectionMenu = false }) {
+                        DropdownMenuItem(
+                            text = { Text("Full Song") },
+                            onClick = {
+                                vm.selectSection(-1)
+                                showSectionMenu = false
+                            }
+                        )
+                        repeat(state.songSectionCount) { index ->
+                            DropdownMenuItem(
+                                text = { Text("Section ${index + 1}") },
+                                onClick = {
+                                    vm.selectSection(index)
+                                    showSectionMenu = false
+                                }
+                            )
+                        }
+                    }
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Text("Section Size")
+                        FilterChip(
+                            selected = state.sectionBars == 8,
+                            onClick = { vm.setSectionBars(8) },
+                            label = { Text("8") }
+                        )
+                        FilterChip(
+                            selected = state.sectionBars == 16,
+                            onClick = { vm.setSectionBars(16) },
+                            label = { Text("16") }
+                        )
+                        FilterChip(
+                            selected = state.sectionBars == 32,
+                            onClick = { vm.setSectionBars(32) },
+                            label = { Text("32") }
                         )
                     }
                 }
             }
-        }
 
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            FilterChip(selected = state.selectedHand == HandSelection.RIGHT, onClick = { vm.setHand(HandSelection.RIGHT) }, label = { Text("Right") })
-            FilterChip(selected = state.selectedHand == HandSelection.LEFT, onClick = { vm.setHand(HandSelection.LEFT) }, label = { Text("Left") })
-            FilterChip(selected = state.selectedHand == HandSelection.BOTH, onClick = { vm.setHand(HandSelection.BOTH) }, label = { Text("Both") })
-        }
-
-        TimelineLane(song = state.selectedSong, currentStep = state.currentStepIndex)
-        KeyboardCanvas(
-            startMidi = state.currentRange.startMidi,
-            keys = state.currentRange.keys,
-            activeNotes = state.activeNotes,
-            showFingers = state.showFingers,
-            showNoteNames = state.showNoteNames,
-            onTapMidi = null
-        )
-        StepAnalysisCard(song = state.selectedSong, currentStep = state.currentStepIndex)
-
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            Button(onClick = { vm.togglePlayPause() }) { Text(if (state.isPlaying) "Pause" else "Play") }
-            OutlinedButton(onClick = { vm.stop() }) { Text("Stop") }
-            OutlinedButton(onClick = { vm.adjustBpm(-5) }) { Text("-5") }
-            Text("${state.bpm} BPM", modifier = Modifier.padding(top = 12.dp))
-            OutlinedButton(onClick = { vm.resetBpmToSongDefault() }) { Text("Normal") }
-            OutlinedButton(onClick = { vm.adjustBpm(5) }) { Text("+5") }
-        }
-
-        Slider(
-            value = state.bpm.toFloat(),
-            onValueChange = { vm.adjustBpm(it.toInt() - state.bpm) },
-            valueRange = 40f..160f
-        )
-
-        Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("Show Fingers")
-                Switch(checked = state.showFingers, onCheckedChange = vm::setShowFingers)
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Button(onClick = { vm.togglePlayPause() }) { Text(if (state.isPlaying) "Pause" else "Play") }
+                OutlinedButton(onClick = { vm.stop() }) { Text("Stop") }
+                Text("${state.bpm} BPM", modifier = Modifier.padding(top = 12.dp))
             }
-            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("Note Names")
-                Switch(checked = state.showNoteNames, onCheckedChange = vm::setShowNoteNames)
+
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FilterChip(selected = state.selectedHand == HandSelection.RIGHT, onClick = { vm.setHand(HandSelection.RIGHT) }, label = { Text("Right") })
+                FilterChip(selected = state.selectedHand == HandSelection.LEFT, onClick = { vm.setHand(HandSelection.LEFT) }, label = { Text("Left") })
+                FilterChip(selected = state.selectedHand == HandSelection.BOTH, onClick = { vm.setHand(HandSelection.BOTH) }, label = { Text("Both") })
             }
-        }
-        Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("Piano")
-                Switch(checked = state.pianoEnabled, onCheckedChange = vm::setPianoEnabled)
+
+            TimelineLane(song = state.selectedSong, currentStep = state.currentStepIndex)
+            KeyboardCanvas(
+                startMidi = state.currentRange.startMidi,
+                keys = state.currentRange.keys,
+                activeNotes = state.activeNotes,
+                showFingers = state.showFingers,
+                showNoteNames = state.showNoteNames,
+                onTapMidi = null
+            )
+            StepAnalysisCard(song = state.selectedSong, currentStep = state.currentStepIndex)
+
+            Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text("Show Fingers")
+                    Switch(checked = state.showFingers, onCheckedChange = vm::setShowFingers)
+                }
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text("Note Names")
+                    Switch(checked = state.showNoteNames, onCheckedChange = vm::setShowNoteNames)
+                }
             }
-            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("Metronome")
-                Switch(checked = state.metronomeEnabled, onCheckedChange = vm::setMetronomeEnabled)
+            Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text("Piano")
+                    Switch(checked = state.pianoEnabled, onCheckedChange = vm::setPianoEnabled)
+                }
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text("Metronome")
+                    Switch(checked = state.metronomeEnabled, onCheckedChange = vm::setMetronomeEnabled)
+                }
             }
+
+            PracticeRampEditor(state.ramp, vm::setRamp)
         }
 
-        PracticeRampEditor(state.ramp, vm::setRamp)
+        Card(modifier = Modifier.fillMaxWidth()) {
+            Column(modifier = Modifier.fillMaxWidth().padding(10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("Speed")
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    OutlinedButton(onClick = { vm.adjustBpm(-5) }) { Text("-5") }
+                    Text("${state.bpm} BPM", modifier = Modifier.padding(top = 12.dp))
+                    OutlinedButton(onClick = { vm.resetBpmToSongDefault() }) { Text("Normal") }
+                    OutlinedButton(onClick = { vm.adjustBpm(5) }) { Text("+5") }
+                }
+                Slider(
+                    value = state.bpm.toFloat(),
+                    onValueChange = { vm.adjustBpm(it.toInt() - state.bpm) },
+                    valueRange = 40f..160f
+                )
+            }
+        }
     }
+}
+
+private fun UiState.selectedSectionLabel(): String {
+    return if (selectedSectionIndex < 0) "Full Song" else "Section ${selectedSectionIndex + 1}"
 }
 
 @Composable

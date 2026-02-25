@@ -13,6 +13,7 @@ import com.fingersmith.model.HandSelection
 import com.fingersmith.model.PracticeRamp
 import com.fingersmith.model.Song
 import com.fingersmith.model.SongRange
+import com.fingersmith.model.StepGrid
 import com.fingersmith.util.StepMath
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -37,6 +38,8 @@ data class UiState(
     val pianoEnabled: Boolean = true,
     val metronomeEnabled: Boolean = true,
     val ramp: PracticeRamp = PracticeRamp(),
+    val sectionBars: Int = 16,
+    val selectedSectionIndex: Int = 0,
     val tab: MainTab = MainTab.SONGBOOK
 ) {
     val selectedSong: Song?
@@ -44,6 +47,15 @@ data class UiState(
 
     val currentRange: SongRange
         get() = selectedSong?.range ?: SongRange()
+
+    val songSectionCount: Int
+        get() {
+            val song = selectedSong ?: return 1
+            val totalSteps = (song.tracks.flatMap { it.events }.maxOfOrNull { it.stepIndex + it.durationSteps }
+                ?: StepGrid.STEPS_PER_BAR).coerceAtLeast(StepGrid.STEPS_PER_BAR)
+            val sectionSteps = sectionBars * StepGrid.STEPS_PER_BAR
+            return ((totalSteps + sectionSteps - 1) / sectionSteps).coerceAtLeast(1)
+        }
 }
 
 class MainViewModel(application: Application) : AndroidViewModel(application) {
@@ -85,10 +97,31 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun selectSong(index: Int) {
-        internal.value = internal.value.copy(selectedSongIndex = index)
+        internal.value = internal.value.copy(selectedSongIndex = index, selectedSectionIndex = 0)
         viewModelScope.launch {
             settingsStore.update { it.copy(selectedSongTitle = internal.value.selectedSong?.title ?: "") }
         }
+    }
+
+    fun selectSection(index: Int) {
+        val state = internal.value
+        val maxSection = (state.songSectionCount - 1).coerceAtLeast(0)
+        val clamped = index.coerceIn(-1, maxSection)
+        internal.value = state.copy(selectedSectionIndex = clamped)
+        if (uiState.value.isPlaying) stop()
+    }
+
+    fun setSectionBars(bars: Int) {
+        val safeBars = when (bars) {
+            8, 16, 32 -> bars
+            else -> 16
+        }
+        val current = internal.value
+        val updated = current.copy(sectionBars = safeBars)
+        val maxSection = (updated.songSectionCount - 1).coerceAtLeast(0)
+        val clampedSection = updated.selectedSectionIndex.coerceIn(-1, maxSection)
+        internal.value = updated.copy(selectedSectionIndex = clampedSection)
+        if (uiState.value.isPlaying) stop()
     }
 
     fun setHand(selection: HandSelection) {
@@ -134,6 +167,15 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         }
 
         val song = state.selectedSong ?: return
+        val totalSteps = song.totalSteps()
+        val sectionSteps = state.sectionBars * StepGrid.STEPS_PER_BAR
+        val (loopStartStep, loopLengthSteps) = if (state.selectedSectionIndex < 0) {
+            0 to totalSteps
+        } else {
+            val start = (state.selectedSectionIndex * sectionSteps).coerceAtMost((totalSteps - 1).coerceAtLeast(0))
+            val length = (totalSteps - start).coerceAtMost(sectionSteps).coerceAtLeast(StepGrid.STEPS_PER_BAR)
+            start to length
+        }
 
         playbackEngine.play(
             song = song,
@@ -141,7 +183,9 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             startBpm = state.bpm,
             ramp = state.ramp,
             pianoOn = state.pianoEnabled,
-            metronomeOn = state.metronomeEnabled
+            metronomeOn = state.metronomeEnabled,
+            loopStartStep = loopStartStep,
+            loopLengthSteps = loopLengthSteps
         )
         internal.value = internal.value.copy(isPlaying = true)
     }
@@ -154,5 +198,10 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     override fun onCleared() {
         super.onCleared()
         playbackEngine.release()
+    }
+
+    private fun Song.totalSteps(): Int {
+        return (tracks.flatMap { it.events }.maxOfOrNull { it.stepIndex + it.durationSteps }
+            ?: StepGrid.STEPS_PER_BAR).coerceAtLeast(StepGrid.STEPS_PER_BAR)
     }
 }

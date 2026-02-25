@@ -39,15 +39,21 @@ class PlaybackEngine(
         startBpm: Int,
         ramp: PracticeRamp,
         pianoOn: Boolean,
-        metronomeOn: Boolean
+        metronomeOn: Boolean,
+        loopStartStep: Int = 0,
+        loopLengthSteps: Int? = null
     ) {
         if (playbackJob?.isActive == true) return
 
         val eventsByStep = song.filteredEvents(handSelection).groupBy { it.stepIndex }
-        val loopSteps = ((eventsByStep.keys.maxOrNull() ?: 0) + StepGrid.STEPS_PER_BAR).coerceAtLeast(StepGrid.STEPS_PER_BAR)
+        val songTotalSteps = ((eventsByStep.keys.maxOrNull() ?: 0) + StepGrid.STEPS_PER_BAR).coerceAtLeast(StepGrid.STEPS_PER_BAR)
+        val sectionStart = loopStartStep.coerceIn(0, (songTotalSteps - 1).coerceAtLeast(0))
+        val sectionLength = (loopLengthSteps ?: (songTotalSteps - sectionStart))
+            .coerceAtLeast(StepGrid.STEPS_PER_BAR)
+            .coerceAtMost(songTotalSteps - sectionStart)
         var bpm = StepMath.quantizeTempo(if (ramp.enabled) ramp.startBpm else startBpm)
         var stepMs = StepMath.stepDurationMs(bpm).toDouble()
-        var scheduledStep = cursorStep
+        var scheduledStep = cursorStep.coerceIn(sectionStart.toLong(), (sectionStart + sectionLength - 1).toLong())
         var nextStepTimeMs = 0.0
         var lastReportedStep = -1L
         val noteEndMs = mutableMapOf<Int, Double>()
@@ -60,8 +66,8 @@ class PlaybackEngine(
                 val lookAheadMs = nowMs + 120.0
 
                 while (nextStepTimeMs <= lookAheadMs) {
-                    val loopStep = (scheduledStep % loopSteps).toInt()
-                    val events = eventsByStep[loopStep].orEmpty()
+                    val absoluteStep = sectionStart + positiveMod((scheduledStep - sectionStart), sectionLength.toLong()).toInt()
+                    val events = eventsByStep[absoluteStep].orEmpty()
                     events.forEach { event ->
                         event.notes.forEach { note ->
                             if (pianoOn) sampler.play(note.midi, 0.95f, (event.durationSteps * stepMs).toInt())
@@ -89,14 +95,14 @@ class PlaybackEngine(
                 }
 
                 val currentStep = (nowMs / stepMs).toLong() + cursorStep
-                val loopStep = (currentStep % loopSteps).toInt()
+                val absoluteStep = sectionStart + positiveMod((currentStep - sectionStart), sectionLength.toLong()).toInt()
                 if (currentStep != lastReportedStep) {
-                    _currentStepIndex.value = loopStep
+                    _currentStepIndex.value = absoluteStep
                     lastReportedStep = currentStep
                 }
 
                 val active = noteEndMs.filterValues { it > nowMs }.keys.associateWith { midi ->
-                    val finger = eventsByStep[loopStep]
+                    val finger = eventsByStep[absoluteStep]
                         .orEmpty()
                         .flatMap { it.notes }
                         .firstOrNull { it.midi == midi }
@@ -138,5 +144,11 @@ class PlaybackEngine(
                 HandSelection.BOTH -> true
             }
         }.flatMap { it.events }
+    }
+
+    private fun positiveMod(value: Long, divisor: Long): Long {
+        if (divisor <= 0) return 0L
+        val mod = value % divisor
+        return if (mod < 0) mod + divisor else mod
     }
 }
