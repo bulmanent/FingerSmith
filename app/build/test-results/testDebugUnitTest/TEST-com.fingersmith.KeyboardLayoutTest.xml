@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fingersmith.KeyboardLayoutTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-25T14:49:50" hostname="neil-latitude7490" time="0.138">
-  <properties/>
-  <testcase name="midiToIndexMapping" classname="com.fingersmith.KeyboardLayoutTest" time="0.109"/>
-  <testcase name="blackWhiteDetection" classname="com.fingersmith.KeyboardLayoutTest" time="0.001"/>
-  <testcase name="noteNameFormatting" classname="com.fingersmith.KeyboardLayoutTest" time="0.028"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -10,13 +10,9 @@ import com.fingersmith.data.SettingsStore
 import com.fingersmith.data.SongRepository
 import com.fingersmith.data.UserSettings
 import com.fingersmith.model.HandSelection
-import com.fingersmith.model.NoteOn
 import com.fingersmith.model.PracticeRamp
 import com.fingersmith.model.Song
 import com.fingersmith.model.SongRange
-import com.fingersmith.model.Track
-import com.fingersmith.model.Event
-import com.fingersmith.model.StepGrid
 import com.fingersmith.util.StepMath
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -26,9 +22,7 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
-enum class MainTab { SONGBOOK, CUSTOM }
-
-data class CustomStep(val notes: MutableList<NoteOn> = mutableListOf())
+enum class MainTab { SONGBOOK, CHORD_LIBRARY }
 
 data class UiState(
     val songs: List<Song> = emptyList(),
@@ -43,11 +37,7 @@ data class UiState(
     val pianoEnabled: Boolean = true,
     val metronomeEnabled: Boolean = true,
     val ramp: PracticeRamp = PracticeRamp(),
-    val tab: MainTab = MainTab.SONGBOOK,
-    val customSteps: Map<Int, CustomStep> = emptyMap(),
-    val customLoopBars: Int = 4,
-    val customSelectedStep: Int = 0,
-    val customFinger: Int = 1
+    val tab: MainTab = MainTab.SONGBOOK
 ) {
     val selectedSong: Song?
         get() = songs.getOrNull(selectedSongIndex)
@@ -110,6 +100,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch { settingsStore.update { it.copy(lastBpm = target) } }
     }
 
+    fun resetBpmToSongDefault() {
+        val target = uiState.value.selectedSong?.defaultBpm ?: 80
+        viewModelScope.launch { settingsStore.update { it.copy(lastBpm = StepMath.quantizeTempo(target)) } }
+    }
+
     fun setShowFingers(value: Boolean) {
         viewModelScope.launch { settingsStore.update { it.copy(showFingers = value) } }
     }
@@ -138,10 +133,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             return
         }
 
-        val song = when (state.tab) {
-            MainTab.SONGBOOK -> state.selectedSong
-            MainTab.CUSTOM -> buildCustomSong(state)
-        } ?: return
+        val song = state.selectedSong ?: return
 
         playbackEngine.play(
             song = song,
@@ -159,53 +151,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         internal.value = internal.value.copy(isPlaying = false)
     }
 
-    fun selectCustomStep(step: Int) {
-        internal.value = internal.value.copy(customSelectedStep = step)
-    }
-
-    fun setCustomFinger(finger: Int) {
-        internal.value = internal.value.copy(customFinger = finger.coerceIn(1, 5))
-    }
-
-    fun setCustomLoopBars(bars: Int) {
-        internal.value = internal.value.copy(customLoopBars = bars.coerceIn(1, 16))
-    }
-
-    fun addCustomNote(midi: Int) {
-        val state = internal.value
-        val copy = state.customSteps.toMutableMap()
-        val step = copy.getOrPut(state.customSelectedStep) { CustomStep() }
-        step.notes += NoteOn(midi = midi, finger = state.customFinger)
-        copy[state.customSelectedStep] = step
-        internal.value = state.copy(customSteps = copy)
-    }
-
-    fun clearCustomStep() {
-        val state = internal.value
-        val copy = state.customSteps.toMutableMap()
-        copy.remove(state.customSelectedStep)
-        internal.value = state.copy(customSteps = copy)
-    }
-
     override fun onCleared() {
         super.onCleared()
         playbackEngine.release()
-    }
-
-    private fun buildCustomSong(state: UiState): Song {
-        val loopSteps = state.customLoopBars * StepGrid.STEPS_PER_BAR
-        val events = state.customSteps.entries
-            .filter { it.key < loopSteps }
-            .sortedBy { it.key }
-            .map { (step, custom) ->
-                Event(stepIndex = step, durationSteps = 2, notes = custom.notes.toList())
-            }
-
-        return Song(
-            title = "Custom Practice",
-            defaultBpm = state.bpm,
-            range = SongRange(),
-            tracks = listOf(Track(name = "Custom", hand = "R", events = events))
-        )
     }
 }

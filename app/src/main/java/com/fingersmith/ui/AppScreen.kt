@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import com.fingersmith.ui.screens.CustomPracticeScreen
+import com.fingersmith.ui.screens.ChordLibraryScreen
 import com.fingersmith.ui.screens.SongbookScreen
 
 @Composable
@@ -19,12 +19,12 @@ fun AppScreen(vm: MainViewModel) {
     Column(modifier = Modifier.fillMaxSize()) {
         TabRow(selectedTabIndex = state.tab.ordinal) {
             Tab(selected = state.tab == MainTab.SONGBOOK, onClick = { vm.setTab(MainTab.SONGBOOK) }, text = { Text("Songbook") })
-            Tab(selected = state.tab == MainTab.CUSTOM, onClick = { vm.setTab(MainTab.CUSTOM) }, text = { Text("Custom Practice") })
+            Tab(selected = state.tab == MainTab.CHORD_LIBRARY, onClick = { vm.setTab(MainTab.CHORD_LIBRARY) }, text = { Text("Chord Library") })
         }
 
         when (state.tab) {
             MainTab.SONGBOOK -> SongbookScreen(state = state, vm = vm)
-            MainTab.CUSTOM -> CustomPracticeScreen(state = state, vm = vm)
+            MainTab.CHORD_LIBRARY -> ChordLibraryScreen()
         }
     }
 }

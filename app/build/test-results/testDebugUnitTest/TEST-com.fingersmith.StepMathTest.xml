@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fingersmith.StepMathTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-25T14:49:50" hostname="neil-latitude7490" time="0.018">
-  <properties/>
-  <testcase name="stepDurationAt120bpm" classname="com.fingersmith.StepMathTest" time="0.002"/>
-  <testcase name="quantizeTempoBounds" classname="com.fingersmith.StepMathTest" time="0.01"/>
-  <testcase name="barCalculation" classname="com.fingersmith.StepMathTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
