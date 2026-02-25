@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.fingersmith.app-debug-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.fingersmith.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_60.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_60.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_69.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_69.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_54.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_54.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_57.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_57.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_75.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_75.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_48.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_48.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_click_hi.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/click_hi.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_63.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_63.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_78.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_78.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_51.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_51.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_84.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_84.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.fingersmith.app-main-64:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_click_lo.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/click_lo.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.fingersmith.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_81.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_81.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_72.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_72.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/raw_pno_66.wav.flat",
+        "source": "com.fingersmith.app-main-64:/raw/pno_66.wav"
+    },
+    {
+        "merged": "com.fingersmith.app-debug-62:/xml_backup_rules.xml.flat",
+        "source": "com.fingersmith.app-main-64:/xml/backup_rules.xml"
+    }
+]

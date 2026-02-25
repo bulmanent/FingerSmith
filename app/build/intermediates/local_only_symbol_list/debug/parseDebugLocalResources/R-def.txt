@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw click_hi
+raw click_lo
+raw pno_48
+raw pno_51
+raw pno_54
+raw pno_57
+raw pno_60
+raw pno_63
+raw pno_66
+raw pno_69
+raw pno_72
+raw pno_75
+raw pno_78
+raw pno_81
+raw pno_84
+string app_name
+style Theme.FingerSmith
+xml backup_rules

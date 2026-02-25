@@ -1,0 +1,7746 @@
+{
+  "songs": [
+    {
+      "title": "Hey Jude",
+      "defaultBpm": 74,
+      "range": {
+        "startMidi": 48,
+        "keys": 37
+      },
+      "tracks": [
+        {
+          "name": "Right Hand",
+          "hand": "R",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 68,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 76,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 84,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 92,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 100,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 108,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 116,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Hand",
+          "hand": "L",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Eleanor Rigby",
+      "defaultBpm": 90,
+      "range": {
+        "startMidi": 48,
+        "keys": 37
+      },
+      "tracks": [
+        {
+          "name": "Right Hand",
+          "hand": "R",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 2,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 6,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 10,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 14,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 34,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 38,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 42,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 46,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Hand",
+          "hand": "L",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Imagine",
+      "defaultBpm": 76,
+      "range": {
+        "startMidi": 48,
+        "keys": 37
+      },
+      "tracks": [
+        {
+          "name": "Right Hand",
+          "hand": "R",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                },
+                {
+                  "midi": 65,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                },
+                {
+                  "midi": 65,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                },
+                {
+                  "midi": 65,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                },
+                {
+                  "midi": 65,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Hand",
+          "hand": "L",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 52,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Knockin on Heaven's Door",
+      "defaultBpm": 68,
+      "range": {
+        "startMidi": 48,
+        "keys": 37
+      },
+      "tracks": [
+        {
+          "name": "Right Hand",
+          "hand": "R",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 68,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 76,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 84,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 92,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 100,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 108,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 116,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 124,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Hand",
+          "hand": "L",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 68,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 76,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 84,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 92,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 100,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 108,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 116,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 124,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Let It Be",
+      "defaultBpm": 72,
+      "range": {
+        "startMidi": 48,
+        "keys": 37
+      },
+      "tracks": [
+        {
+          "name": "Right Hand",
+          "hand": "R",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 68,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 76,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 84,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 92,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 100,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 108,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 116,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 124,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 128,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 132,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 136,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 140,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 144,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 148,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 152,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 156,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 160,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 164,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 168,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 172,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 176,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 180,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 184,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 188,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 192,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 196,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 200,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 204,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 208,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 212,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 216,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 220,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 224,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 228,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 232,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 236,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 240,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 244,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 248,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 252,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 256,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 260,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 264,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 268,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 272,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 276,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 280,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 284,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 288,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 292,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 296,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 300,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 304,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 308,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 312,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 316,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 320,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 324,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 328,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 332,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 336,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 340,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 344,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 348,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 352,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 356,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 360,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 364,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 368,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 372,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 376,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 380,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 384,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 388,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 392,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 396,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 400,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 404,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 408,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 412,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 416,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 420,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 424,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 428,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 432,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 436,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 440,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 444,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 448,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 452,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 456,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 460,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 464,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 468,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 472,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 476,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 480,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 484,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 488,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 492,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 496,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 500,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 504,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 508,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Hand",
+          "hand": "L",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 128,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 136,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 144,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 152,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 160,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 168,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 176,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 184,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 192,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 200,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 208,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 216,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 224,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 232,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 240,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 248,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 256,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 264,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 272,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 280,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 288,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 296,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 304,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 312,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 320,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 328,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 336,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 344,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 352,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 360,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 368,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 376,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 384,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 392,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 400,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 408,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 416,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 424,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 432,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 440,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 448,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 456,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 464,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 472,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 480,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 488,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 496,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 504,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Stand by Me",
+      "defaultBpm": 76,
+      "range": {
+        "startMidi": 48,
+        "keys": 37
+      },
+      "tracks": [
+        {
+          "name": "Right Hand",
+          "hand": "R",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 128,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 136,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 144,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 152,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 160,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 168,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 176,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 184,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 192,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 200,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 208,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 216,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 224,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 232,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 240,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 248,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 256,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 264,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 272,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 280,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 288,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 296,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 304,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 312,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 320,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 328,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 336,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 344,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 352,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 360,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 368,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 376,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 384,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 392,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 400,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 408,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 416,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 424,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 432,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 440,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 448,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 1
+                },
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 456,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                },
+                {
+                  "midi": 67,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 464,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 1
+                },
+                {
+                  "midi": 72,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 472,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 2
+                },
+                {
+                  "midi": 76,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 480,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 1
+                },
+                {
+                  "midi": 69,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 488,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                },
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 496,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 1
+                },
+                {
+                  "midi": 71,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 504,
+              "durationSteps": 8,
+              "notes": [
+                {
+                  "midi": 71,
+                  "finger": 2
+                },
+                {
+                  "midi": 74,
+                  "finger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Hand",
+          "hand": "L",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 68,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 76,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 84,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 92,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 100,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 108,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 116,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 124,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 128,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 132,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 136,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 140,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 144,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 148,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 152,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 156,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 160,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 164,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 168,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 172,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 176,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 180,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 184,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 188,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 192,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 196,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 200,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 204,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 208,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 212,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 216,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 220,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 224,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 228,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 232,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 236,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 240,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 244,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 248,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 252,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 256,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 260,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 264,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 268,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 272,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 276,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 280,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 284,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 288,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 292,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 296,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 300,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 304,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 308,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 312,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 316,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 320,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 324,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 328,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 332,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 336,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 340,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 344,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 348,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 352,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 356,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 360,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 364,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 368,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 372,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 376,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 380,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 384,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 388,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 392,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 396,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 400,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 404,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 408,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 412,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 416,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 420,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 424,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 428,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 432,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 436,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 440,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 444,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 448,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 48,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 452,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 456,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 460,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 464,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 468,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 472,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 476,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 480,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 484,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 488,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 60,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 492,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 65,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 496,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 500,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 504,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 508,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Suzanne",
+      "defaultBpm": 82,
+      "range": {
+        "startMidi": 48,
+        "keys": 37
+      },
+      "tracks": [
+        {
+          "name": "Right Hand",
+          "hand": "R",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 2,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 6,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 10,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 14,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 18,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 22,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 26,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 30,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 34,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 38,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 42,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 46,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 50,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 54,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 58,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 62,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 66,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 68,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 70,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 74,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 76,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 78,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 82,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 84,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 86,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 90,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 92,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 94,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 98,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 100,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 102,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 106,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 108,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 110,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 114,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 116,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 118,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 72,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 69,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 122,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 67,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 124,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 64,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 126,
+              "durationSteps": 2,
+              "notes": [
+                {
+                  "midi": 62,
+                  "finger": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Hand",
+          "hand": "L",
+          "events": [
+            {
+              "stepIndex": 0,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 4,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 8,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 12,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 16,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 20,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 24,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 28,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 32,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 36,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 40,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 44,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 48,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 52,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 56,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 60,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 64,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 68,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 72,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 76,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 80,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 84,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 88,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 92,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 96,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 100,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 104,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 108,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            },
+            {
+              "stepIndex": 112,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 50,
+                  "finger": 5
+                }
+              ]
+            },
+            {
+              "stepIndex": 116,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 57,
+                  "finger": 2
+                }
+              ]
+            },
+            {
+              "stepIndex": 120,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 53,
+                  "finger": 4
+                }
+              ]
+            },
+            {
+              "stepIndex": 124,
+              "durationSteps": 4,
+              "notes": [
+                {
+                  "midi": 55,
+                  "finger": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
